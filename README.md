@@ -63,6 +63,7 @@ st-johns-parking-analytics-pipeline/
 ├── dashboard/
 │   ├── dashboard_guide.md
 │   └── powerbi_measures.txt
+│   └── dashboard_screenshot    
 │
 ├── docs/
 │   ├── business_requirements.md
@@ -151,6 +152,10 @@ The Power BI dashboard should include:
 - Street Level Summary Table
 
 Use this file in Power BI:
+
+## Dashboard Preview
+
+![Dashboard](dashboard/dashboard_screenshot.png)
 
 ```text
 data/processed/clean_parking_analytics.csv
