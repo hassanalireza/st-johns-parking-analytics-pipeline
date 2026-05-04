@@ -1,0 +1,4 @@
+area,parking_type,max_time_limit_hours,business_priority
+Downtown,Paid On-Street,2,High
+Churchill Square,Paid On-Street,2,Medium
+University Area,Mixed Parking,3,Medium

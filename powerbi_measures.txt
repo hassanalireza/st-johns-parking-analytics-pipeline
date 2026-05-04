@@ -1,0 +1,27 @@
+Power BI DAX Measures
+
+Total Revenue = SUM(clean_parking_analytics[revenue])
+
+Total Sessions = COUNT(clean_parking_analytics[session_id])
+
+Average Parking Duration = AVERAGE(clean_parking_analytics[hours_parked])
+
+Average Revenue Per Session = DIVIDE([Total Revenue], [Total Sessions])
+
+Total Snow Days = 
+CALCULATE(
+    DISTINCTCOUNT(clean_parking_analytics[date]),
+    clean_parking_analytics[snowfall_cm] > 0
+)
+
+Weekend Sessions = 
+CALCULATE(
+    [Total Sessions],
+    clean_parking_analytics[is_weekend] = 1
+)
+
+Weekday Sessions = 
+CALCULATE(
+    [Total Sessions],
+    clean_parking_analytics[is_weekend] = 0
+)
