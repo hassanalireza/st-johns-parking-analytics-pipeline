@@ -63,7 +63,7 @@ st-johns-parking-analytics-pipeline/
 ├── dashboard/
 │   ├── dashboard_guide.md
 │   └── powerbi_measures.txt
-│   └── dashboard_screenshot    
+│   └── dashboard_screenshot.png    
 │
 ├── docs/
 │   ├── business_requirements.md
