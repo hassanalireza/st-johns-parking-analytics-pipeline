@@ -153,10 +153,15 @@ The Power BI dashboard should include:
 
 Use this file in Power BI:
 
+## Power BI Dataset
+
+Use this file in Power BI Desktop:
+
+data/processed/clean_parking_analytics.csv
+
 ## Dashboard Preview
 
 ![Dashboard](dashboard/dashboard_screenshot.png)
-
 ```text
 data/processed/clean_parking_analytics.csv
 ```
