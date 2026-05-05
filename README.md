@@ -162,8 +162,8 @@ data/processed/clean_parking_analytics.csv
 ## Dashboard Preview
 
 ![Dashboard](dashboard/dashboard_screenshot.png)
-```text
-data/processed/clean_parking_analytics.csv
+
+This dashboard highlights parking revenue trends, payment behavior, and the impact of winter conditions in St. John’s.
 ```
 
 ## Key Insights
